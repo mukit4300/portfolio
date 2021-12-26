@@ -1,21 +1,20 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
-    padding:0%}
+    padding:0%;
+    background-color: black;
+    color: blanchedalmond;
+}
 h1{
     font-size: 35px;
     font-family: poppins;
     margin-left: 8%;
     font-weight: 1200;
-}
-.top-banner{
-    background-image: url(images/top-banner.png);
-    margin: 0%;
-    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
 }
 
 .name-highlight{
-    color: rgb(211, 71, 29);
+    color: rgb(204, 19, 19);
 }
 img{
     width: 100%;
@@ -23,8 +22,9 @@ img{
 .link-button{
 text-decoration: none;
 background-image: linear-gradient(45deg,orange,red);
-color: cornsilk;
+color: rgb(0, 0, 0);
 border-radius: 5px;
+font-size: 25px;
 padding: 4px;
 margin: 3px;
 }
@@ -43,6 +43,10 @@ margin: 3px;
    
 }
 
+.experience h1{
+    color: blanchedalmond;
+}
+
 .experience .width-half{
     border-left:5px solid yellow;
     box-shadow: 10px 10px 40px gray;
@@ -58,11 +62,11 @@ margin: 3px;
     color: red;
 }
 .copyright{
-    text-align: center;
     float: left;
 }
 .navbar{
-  background-color: cornflowerblue;
+    text-align: center;
+  background-color: rgb(255, 0, 0);
   color:cornsilk;
   overflow: auto;
 }
@@ -72,9 +76,10 @@ margin: 3px;
 }
 .navbar a {
     float: left;
-    color: #f2f2f2;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-weight: bold;
   }
